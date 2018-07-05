@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ECommerce.Models.Order>
+
+@{
+    ViewBag.Title = "OrderDetails";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>OrderDetails</h2>
+
+<br />
+<br />
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Product Details</h3>
+    </div>
+    <div class="box-content">
+        <table id="order" class="table table-striped table-bordered bootstrap-datatable datatable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Order Id</th>
+                    <th>Cart Id</th>
+                    <th>Order Date</th>
+                    <th>Delivery Date</th>
+                    <th>Total Qty</th>
+                    <th>Total Amount</th>
+                    <th>Status</th>
+                    <th>Customer Id</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model)
+                {
+
+                    <tr>
+                        <td></td>
+                        <td>@order.OrderId</td>
+                        <td>@order.Cart.Id</td>
+                        <td>@order.OrderDate</td>
+                        <td>@order.DeliveryDate</td>                    
+                        <td>@order.Cart.TotalQty</td>
+                        <td>@order.Cart.TotalAmount</td>
+                        <td>@order.Status</td>
+                        <td>@order.Customer.Id</td>
+                        
+                        <td>@Html.ActionLink("Edit Order", "EditOrder", "Order", new { id = order.OrderId }, new { @class = "btn btn-warning" })</td>
+
+                        <td>@Html.ActionLink("Delete", "DeleteOrder", "Order", new { id = order.OrderId }, new { @class = "btn btn-danger" })</td>
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+@section scripts
+            {
+    <script>
+        $(document).ready(function () {
+            var table = $("#order").DataTable({
+            });
+        });
+    </script>
+}

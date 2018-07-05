@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ECommerce.Models.Customer>
+@{
+    ViewBag.Title = "CustomerDetails";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>CustomerDetails</h2>
+
+<div class="pull-right">
+    <a href="AddCustomer"><input type="button" class="btn btn-primary" value="Add Customer" /> </a>
+</div>
+<br />
+<br />
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Product Details</h3>
+    </div>
+    <div class="box-content">
+        <table id="customer" class="table table-striped table-bordered bootstrap-datatable datatable">
+            <thead>
+                <tr>
+                    
+                    <th>C Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var customer in Model)
+                {
+
+                    <tr>
+                        <td>@customer.Id</td>
+                        <td>@(customer.Name)</td>
+                        <td>@customer.Email</td>                       
+                        <td>@Html.ActionLink("Edit ", "EditCustomer", "Customer", new { id = customer.Id }, new { @class = "btn btn-warning" })</td>
+                        
+                        <td>@Html.ActionLink("Delete", "DeleteCustomer", "Customer", new { id = customer.Id }, new { @class = "btn btn-danger" })</td>
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+@section scripts
+            {
+    <script>
+        $(document).ready(function () {
+            var table = $("#customer").DataTable({
+            });
+        });
+    </script>
+}

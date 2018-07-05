@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ECommerce.Models.Product>
+
+@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+
+}
+
+<div class="pull-right">
+    <a href="CreateProduct"><input type="button" class="btn btn-primary" value="Add Product" /> </a>
+</div>
+<br />
+<br />
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">Product Details</h3>
+    </div>
+    <div class="box-content">
+        <table id="product" class="table table-striped table-bordered bootstrap-datatable datatable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                               
+                    <th>Product Name</th>
+                    <th>Brand Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Available Qty</th>
+                    <th>Description</th>
+                    <th>Reviews</th>
+                    <th>Size</th>
+                    <th>actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+
+                    <tr>
+                        <td></td>                        
+                        <td>@(product.Name)</td>
+                        <td>@product.brand.Name</td>
+                        <td>@product.ChildCategory.Name</td>
+                        <td>@product.Price</td>
+                        <td>@product.Qty</td>
+                        <td>@product.Description</td>
+                        <td>@product.Reveiws</td>
+                        <td>@product.Size.Name</td>
+                        <td>@Html.ActionLink("Edit ", "EditProduct", "Product", new { id = product.Id }, new { @class = "btn btn-warning" })</td>
+                        <td>@Html.ActionLink("Delete", "DeleteProduct", "Product", new { id = product.Id }, new { @class="btn btn-danger"})</td>
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+</div>
+</div>
+@section scripts
+            {
+    <script>
+        $(document).ready(function () {
+            var table = $("#product").DataTable({
+            });
+        });
+    </script>
+}

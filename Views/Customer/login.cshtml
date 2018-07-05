@@ -1,0 +1,33 @@
+﻿@model ECommerce.Models.Customer
+@{
+    ViewBag.Title = "login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>login</h2>
+
+<hr />
+@using (Html.BeginForm("logedIn", "Customer"))
+{
+    @Html.ValidationSummary(true, "Please fix the following Errors.")
+    <div class="col-md-12">
+        <div class="col-md-4 form-group">
+
+            <label>User Name</label>
+            <input type="email" name="Email" class="form-control" />
+            @Html.ValidationMessageFor(m => m.Email)
+        </div>
+        <div class="col-md-8 form-group">
+            <label>Password</label>
+            <input type="password" name="Password" class="form-control" />
+
+            @Html.ValidationMessageFor(m => m.Password)
+        </div>
+        <div class="col-md-4 form-group">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+
+    </div>
+
+    @Html.AntiForgeryToken()
+}

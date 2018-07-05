@@ -1,0 +1,74 @@
+﻿<style>
+    .collapse {
+        display: none;
+    }
+
+        .collapse.in {
+            display: block;
+        }
+
+    .menus {
+        text-decoration: none !important;
+    }
+
+    .sidebar-menu {
+        overflow: auto;
+        font-family: verdana;
+        font-size: 15px;
+        font-weight: 200;
+        background-color: #2e353d;
+        position: absolute;
+        top: 51px;
+        height: 100%;
+        color: #428bca;
+        display: block;
+    }
+
+    .wrapper {
+        display: flexbox;
+        align-items: stretch;
+    }
+
+    .style {
+        display: block;
+    }
+
+    .btn-color {
+        color: #999999;
+        background-color: #222222;
+    }
+
+        .btn-color:hover {
+            color: blue;
+            background-color: #222222;
+        }
+</style>
+<div class="wrapper">
+    <div class="col-sm-2 sidebar-fixed-left sidebar-menu">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+        <div id="wrapper">
+
+            <ul class="nav sidebar-nav">
+              <li><br /></li>
+                <li> <br />  </li>  <li> <br /> </li>
+                <li>@Html.ActionLink("Dashboard", "Index", "Dashboard")</li>
+                <li>@Html.ActionLink("Products", "ProductDetails", "Product")</li>
+                <li>@Html.ActionLink("Categories", "CategoryDetails", "Category")</li>
+                <li>@Html.ActionLink("Brands", "BrandDetails", "Brand")</li>
+                <li>@Html.ActionLink("Order", "OrderDetails", "Order")</li>
+                <li>@Html.ActionLink("Customer", "CustomerDetails", "Customer")</li>
+                <li>@Html.ActionLink("Profile", "Manage", "Account")</li>
+
+            </ul>
+        </div> 
+    </div>
+
+</div>

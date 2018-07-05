@@ -1,0 +1,19 @@
+﻿@model IEnumerable<ECommerce.Models.Product>
+<section class="sky-form">
+    <h4>catogories</h4>
+    <div class="row1 scroll-pane">
+        <div class="col col-4">
+            <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>kurtas</label>
+        </div>
+        <div class="col col-4">
+           
+
+               
+@foreach (var item in Model)
+            {
+            <label class="checkbox"><input type="checkbox" name="checkbox"><i></i>@Html.ActionLink(item.ChildCategory.Name, "EditCategory", "Category", new { id = item.ChildCategory.Id }, null)</label>
+}
+          
+        </div>
+    </div>
+</section>

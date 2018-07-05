@@ -1,0 +1,140 @@
+﻿@model ECommerce.Models.LoginViewModel
+
+@{
+    ViewBag.Title = "Log in";
+}
+<style>
+
+    .form-box {
+        padding-top: 40px;
+    }
+
+    .form-top {
+        overflow: hidden;
+        padding: 0 25px 15px 25px;
+        background: #444;
+        background: rgba(0, 0, 0, 0.35);
+        -moz-border-radius: 4px 4px 0 0;
+        -webkit-border-radius: 4px 4px 0 0;
+        border-radius: 4px 4px 0 0;
+        text-align: left;
+    }
+
+    .form-top-left {
+        float: left;
+        width: 75%;
+        padding-top: 25px;
+    }
+
+        .form-top-left h3 {
+            margin-top: 0;
+            color: #fff;
+        }
+
+        .form-top-left p {
+            opacity: 0.8;
+            color: #fff;
+        }
+
+    .form-top-right {
+        float: left;
+        width: 25%;
+        padding-top: 5px;
+        font-size: 66px;
+        color: #fff;
+        line-height: 100px;
+        text-align: right;
+        opacity: 0.3;
+    }
+
+    .form-bottom {
+        padding: 25px 25px 30px 25px;
+        background: #444;
+        background: rgba(0, 0, 0, 0.3);
+        -moz-border-radius: 0 0 4px 4px;
+        -webkit-border-radius: 0 0 4px 4px;
+        border-radius: 0 0 4px 4px;
+        text-align: left;
+    }
+
+        .form-bottom form textarea {
+            height: 100px;
+        }
+
+        .form-bottom form .input-error {
+            border-color: #19b9e7;
+        }
+
+        .form-bottom p {
+            opacity: 0.8;
+            color: #fff;
+        }
+    .mid {
+        margin-left: 120px;
+    }
+
+</style>
+<div class="top-content">
+
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1 class="text-center"><strong>Login Area</strong> Sign-in</h1>
+                   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                            <h2 class="text-center">Sign-in</h2>
+                        </div>
+                        <div class="form-top-right">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="form-bottom contact-form">
+@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{  
+                     @Html.AntiForgeryToken()
+   
+                    <hr />
+                    @Html.ValidationSummary(true)
+                          <div class="form-group" >
+                              <label class="mid">Username</label>
+                            @Html.TextBoxFor(m => m.UserName, new { @class = "contact-email form-control mid" })
+                            @Html.ValidationMessageFor(m => m.UserName)
+                        </div>
+                         <div class="form-group" >
+                             <label class="mid">Password</label>
+                             @Html.PasswordFor(m => m.Password, new { @class = "form-control mid" })
+                             @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+    
+                    <div class="form-group">
+                        <div class="col-md-offset-1 mid">
+                            <div class="checkbox">
+                                @Html.CheckBoxFor(m => m.RememberMe)
+                                @Html.LabelFor(m => m.RememberMe)
+                            </div>
+                        </div>
+                    </div>
+                      @*<p>
+                        @Html.ActionLink("Register", "Register") if you don't have a local account.
+                    </p>*@
+                    <button type="reset" class="btn mid">Cancel</button>
+                    <button type="submit" value="Log in" class="btn">Login</button>
+                }
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+   
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

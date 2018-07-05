@@ -1,0 +1,13 @@
+﻿@model IEnumerable<ECommerce.Models.ChildCategory>
+
+@{
+    ViewBag.Title = "PublicNavbar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Navbar</h2>
+
+@foreach (var category in Model)
+{
+    <h4>@category.ParentCategory.Name</h4>
+}

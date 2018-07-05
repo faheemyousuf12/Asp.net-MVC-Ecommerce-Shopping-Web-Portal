@@ -1,0 +1,53 @@
+﻿
+<style>
+    .animate {
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    .navbar-bootsnip {
+        background-color: #2e353d;
+        border-color: #5FB0E4;
+        margin-bottom: 0;
+    }
+</style>
+<div class="wrapper">
+    <div class="container-fluid">
+        <div class="col-md-12 navbar navbar-fixed-top navbar-bootsnip animate" role="navigation" style="z-index: 9999999">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class=" navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Help", "Deals", "Dashboard")</li>
+                    <li>@Html.ActionLink("Admin", "Index", "Dashboard")</li>
+                    <li>@Html.ActionLink("Items", "Items", "Item")</li>
+                    <li>@Html.ActionLink("Cart", "Cart", "Item", new { id = 1 }, null)<span></span></li>                  
+                    <li>@@ViewData.menu  .................................</li>
+                    <li style="margin-top:8px">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+
+                @Html.Partial("_LoginPartial")
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+

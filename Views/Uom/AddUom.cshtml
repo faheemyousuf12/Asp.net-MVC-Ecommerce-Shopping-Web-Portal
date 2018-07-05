@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "AddUom";
+    Layout = "~/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>AddUom</h2>
+@using (Html.BeginForm("SaveUom", "Uom"))
+{
+    @Html.ValidationSummary(true, "Please fix the following Errors.")
+
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+
+    @Html.AntiForgeryToken()
+}

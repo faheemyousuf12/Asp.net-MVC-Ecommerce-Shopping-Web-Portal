@@ -1,0 +1,13 @@
+﻿
+@model IEnumerable<ECommerce.Models.Product>
+<div class="w_nav1">
+  
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@Html.ActionLink(item.brand.Name, "Items", "Item", new { brand = item.BrandId }, null)</li>
+
+        }
+
+    </ul>
+</div>

@@ -1,0 +1,141 @@
+﻿@model ECommerce.ViewModel.ProductBasketViewModel
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .img-details 
+    {
+        height: 75px;
+        width: 100%;
+        margin: 15px auto;
+    }
+</style>
+<h2>Checkout</h2>
+@{
+    int amount = 0;
+    int qty = 0;
+}
+
+<div class="container">
+    <div class="check">
+        <div class="col-md-3 cart-total">
+@using (Html.BeginForm("AddToCart", "Item"))
+{
+    foreach (var prod in @Model.UserBasket)
+    {
+        qty += prod.Qty;
+        amount += Convert.ToInt32(prod.Amount);
+    }
+            <a class="continue" href="#">Conztinue to basket</a>
+            <div class="price-details">
+                <h3>Price Details</h3>
+                <span>Total</span>
+                <span class="total1">@amount</span>
+                <span>Discount</span>
+                <span class="total1">---</span>
+                <span>Delivery Charges</span>
+                <span class="total1">@qty</span>
+                <div class="clearfix"></div>
+            </div>
+            <ul class="total_price">
+                <li class="last_price"> <h4>TOTAL</h4></li>
+                <li class="last_price"><span>6350.00</span></li>
+                <div class="clearfix"> </div>
+            </ul>
+
+
+            <div class="clearfix"></div>
+    <input type="hidden" name="TotQty" value="@qty"/>
+    <input type="hidden" name="TotAmount" value="@amount" />
+    <input type="hidden" name="CustomerId" value="@Model.Customer.Id" />
+            <button type="submit" class="col-md-9 btn-primary" >Place Order</button>
+}
+
+            <div class="total-item">
+                <h3>OPTIONS</h3>
+                <h5>COUPONS</h5>
+                <a class="cpns" href="#">Apply Coupons</a>
+                <p><a href="#">Log In</a> to use accounts - linked coupons</p>
+            </div>
+        </div>
+
+
+        <div class="col-md-9 cart-items">
+            <h1>My Shopping Bag (2)</h1>
+            <script>
+$(document).ready(function(c) {
+					$('.close1').on('click', function(c){
+						$('.cart-header').fadeOut('slow', function(c){
+							$('.cart-header').remove();
+						});
+						});
+					});
+            </script>
+            
+            @foreach(var products in @Model.UserBasket)
+            {
+                <div class="cart-header">
+                <div class="close1"> </div>
+                <div class="cart-sec simpleCart_shelfItem">
+                    <div class="cart-item cyc">
+                        <img src="@Url.Content(products.product.Image)" class="img-details" alt="" />
+                    </div>
+                    <div class="cart-item-info">
+                        <h3><a href="#">@products.product.Name</a><span>Model No: 3578</span></h3>
+                        <ul class="qty">
+                            <li><p>Size : @products.Size.Name</p></li>
+                            <li><p>@products.Qty</p></li>
+                        </ul>
+
+                        <div class="delivery">
+                            <p>Price : @products.product.Price</p>
+                            <span>Amount:@products.Amount</span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                </div>
+            </div>
+            }
+                     
+             
+            <div class="cart-header2">
+                <div class="close2"> </div>
+                <div class="cart-sec simpleCart_shelfItem">
+                    <div class="cart-item cyc">
+                        <img src="~/Images/11.jpg" class="img-responsive" alt="" />
+                    </div>
+                    <div class="cart-item-info">
+                        <h3><a href="#">Mountain Hopper(XS R034)</a><span>Model No: 3578</span></h3>
+                        <ul class="qty">
+                            <li><p>Size : 5</p></li>
+                            <li><p>Qty : 1</p></li>
+                        </ul>
+                        <div class="delivery">
+                            <p>Service Charges : Rs.100.00</p>
+                            <span>Delivered in 2-3 bussiness days</span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+@section scripts
+{
+<script>
+    $(document).ready(function (c) {
+        $('.close2').on('click', function (c) {
+            $('.cart-header2').fadeOut('slow', function (c) {
+                $('.cart-header2').remove();
+            });
+        });
+    });
+</script>
+}

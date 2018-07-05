@@ -1,0 +1,38 @@
+﻿@model ECommerce.ViewModel.CustomerViewModel
+@{
+    ViewBag.Title = "AddCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("SaveCustomer", "Customer"))
+{
+    @Html.ValidationSummary(true, "Please fix the following Errors.")
+    <div class="col-md-12">
+        <div class="col-md-4 form-group">
+            <label>Name</label>
+            @Html.TextBoxFor(c => c.Customer.Name, new { @class = "form-control" })
+        </div>
+       
+        <div class="col-md-4 form-group">
+            <label>Email</label>
+            @Html.TextBoxFor(c => c.Customer.Email, new { @class = "form-control" })
+        </div>
+        <div class="col-md-4 form-group">
+            <label>Password</label>
+            @Html.TextBoxFor(c => c.Customer.Password, new { @class = "form-control" })
+        </div>
+        <div class="col-md-4 form-group">
+            <label>Confirm Password</label>
+            @Html.TextBoxFor(c => c.Customer.ConfirmPassword, new { @class = "form-control" })
+        </div>
+    
+        <div class="col-md-6">
+            <input type="button" class="btn btn-default" value="Cancel" />
+            <input type="submit" class="btn btn-primary" value="Add Customer" />
+        </div>
+    </div>
+
+    @Html.AntiForgeryToken()
+
+}

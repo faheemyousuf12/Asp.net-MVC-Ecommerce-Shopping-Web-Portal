@@ -1,0 +1,268 @@
+c:\Projects\ECommerce\ECommerce\bin\ECommerce.dll.config
+c:\Projects\ECommerce\ECommerce\bin\ECommerce.dll
+c:\Projects\ECommerce\ECommerce\bin\ECommerce.pdb
+c:\Projects\ECommerce\ECommerce\bin\Antlr3.Runtime.dll
+c:\Projects\ECommerce\ECommerce\bin\EntityFramework.dll
+c:\Projects\ECommerce\ECommerce\bin\EntityFramework.SqlServer.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Core.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Cookies.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Facebook.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Google.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.OAuth.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Twitter.dll
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Web.Infrastructure.dll
+c:\Projects\ECommerce\ECommerce\bin\Newtonsoft.Json.dll
+c:\Projects\ECommerce\ECommerce\bin\Owin.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Helpers.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Mvc.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Optimization.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Razor.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Deployment.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.WebPages.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Razor.dll
+c:\Projects\ECommerce\ECommerce\bin\WebGrease.dll
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Helpers.xml
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Mvc.xml
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Optimization.xml
+c:\Projects\ECommerce\ECommerce\bin\System.Web.Razor.xml
+c:\Projects\ECommerce\ECommerce\bin\System.Web.WebPages.xml
+c:\Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Deployment.xml
+c:\Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Razor.xml
+c:\Projects\ECommerce\ECommerce\bin\Newtonsoft.Json.xml
+c:\Projects\ECommerce\ECommerce\bin\Antlr3.Runtime.pdb
+c:\Projects\ECommerce\ECommerce\bin\EntityFramework.xml
+c:\Projects\ECommerce\ECommerce\bin\EntityFramework.SqlServer.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Core.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Facebook.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Cookies.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.OAuth.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Google.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Twitter.xml
+c:\Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.csprojResolveAssemblyReference.cache
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.dll
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.pdb
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.InitialModel.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.csproj.GenerateResource.Cache
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddCustomer.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddGenderTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddEmployeeRoleTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddMembershipTypeTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.deleteMembershipTypefromUserTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateMembershiptypeCustomerTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddProductsTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddUOMTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddForeignkeyUOMinCustomerTable.resources
+c:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddCategoriesinProductsTables.resources
+C:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddBrandstable.resources
+C:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.Updateproductsforbrandsandcategoriestable.resources
+C:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.lineitemstable.resources
+C:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.CartTable.resources
+C:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateDbafterInvoicecommented.resources
+C:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateMembershipwithdiscount.resources
+C:\Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UploadImageinProducts.resources
+C:\Projects\ECommerce\ECommerce\bin\AutoMapper.dll
+C:\Projects\ECommerce\ECommerce\bin\AutoMapper.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\ECommerce.dll.config
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\ECommerce.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\ECommerce.pdb
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Antlr3.Runtime.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\AutoMapper.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\EntityFramework.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\EntityFramework.SqlServer.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Google.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Web.Infrastructure.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Newtonsoft.Json.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Owin.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Helpers.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Mvc.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Optimization.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Razor.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Deployment.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.WebPages.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Razor.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\WebGrease.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\AutoMapper.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Helpers.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Mvc.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Optimization.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Razor.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.WebPages.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Deployment.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.WebPages.Razor.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Newtonsoft.Json.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Antlr3.Runtime.pdb
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\EntityFramework.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\EntityFramework.SqlServer.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Google.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.csprojResolveAssemblyReference.cache
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.InitialModel.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddCustomer.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddGenderTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddEmployeeRoleTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddMembershipTypeTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.deleteMembershipTypefromUserTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateMembershiptypeCustomerTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddProductsTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddUOMTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddForeignkeyUOMinCustomerTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddCategoriesinProductsTables.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddBrandstable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.lineitemstable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.CartTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateDbafterInvoicecommented.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateMembershipwithdiscount.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UploadImageinProducts.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.csproj.GenerateResource.Cache
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.pdb
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Net.Http.Formatting.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Http.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Http.WebHost.dll
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Net.Http.Formatting.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Http.xml
+D:\Asp.net MVC Projects\ECommerce\ECommerce\bin\System.Web.Http.WebHost.xml
+D:\Backup\ECommerce\ECommerce\bin\ECommerce.dll.config
+D:\Backup\ECommerce\ECommerce\bin\ECommerce.dll
+D:\Backup\ECommerce\ECommerce\bin\ECommerce.pdb
+D:\Backup\ECommerce\ECommerce\bin\Antlr3.Runtime.dll
+D:\Backup\ECommerce\ECommerce\bin\AutoMapper.dll
+D:\Backup\ECommerce\ECommerce\bin\EntityFramework.dll
+D:\Backup\ECommerce\ECommerce\bin\EntityFramework.SqlServer.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Google.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Web.Infrastructure.dll
+D:\Backup\ECommerce\ECommerce\bin\Newtonsoft.Json.dll
+D:\Backup\ECommerce\ECommerce\bin\Owin.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Net.Http.Formatting.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Helpers.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Http.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Http.WebHost.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Mvc.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Optimization.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Razor.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.WebPages.Deployment.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.WebPages.dll
+D:\Backup\ECommerce\ECommerce\bin\System.Web.WebPages.Razor.dll
+D:\Backup\ECommerce\ECommerce\bin\WebGrease.dll
+D:\Backup\ECommerce\ECommerce\bin\AutoMapper.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Net.Http.Formatting.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Http.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Http.WebHost.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Helpers.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Mvc.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Optimization.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.Razor.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.WebPages.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.WebPages.Deployment.xml
+D:\Backup\ECommerce\ECommerce\bin\System.Web.WebPages.Razor.xml
+D:\Backup\ECommerce\ECommerce\bin\Newtonsoft.Json.xml
+D:\Backup\ECommerce\ECommerce\bin\Antlr3.Runtime.pdb
+D:\Backup\ECommerce\ECommerce\bin\EntityFramework.xml
+D:\Backup\ECommerce\ECommerce\bin\EntityFramework.SqlServer.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Google.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Backup\ECommerce\ECommerce\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.InitialModel.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddCustomer.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddGenderTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddEmployeeRoleTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddMembershipTypeTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.deleteMembershipTypefromUserTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateMembershiptypeCustomerTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddProductsTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddUOMTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddForeignkeyUOMinCustomerTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddCategoriesinProductsTables.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddBrandstable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.lineitemstable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.CartTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateDbafterInvoicecommented.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateMembershipwithdiscount.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UploadImageinProducts.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.csproj.GenerateResource.Cache
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.dll
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.pdb
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.guggugug.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.guggugug.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.jdsakh.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.jdsakh1.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.jdsakh2.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.OrderTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddProductIdColumnToOrserTable.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCartAndCartLI.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCartLi.resources
+D:\Asp.net MVC Projects\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCartCLIAndSizeTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.jdsakh.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.jdsakh1.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.jdsakh2.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.OrderTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddProductIdColumnToOrserTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCartAndCartLI.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCartLi.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCartCLIAndSizeTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateSizeInProducts.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCartLi1.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.csprojResolveAssemblyReference.cache
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.addCartColumnToLineItems.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.AddUserBasketTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateCustomerCartMembership.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateOrderTable.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UpdateOrder.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UserInCustomer.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.UPDUserInCustomer.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.Null.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.ReUpdCustomer.resources
+D:\Backup\ECommerce\ECommerce\obj\Debug\ECommerce.Migrations.seedUsers.resources
